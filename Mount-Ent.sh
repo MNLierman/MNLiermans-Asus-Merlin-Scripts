@@ -3,7 +3,7 @@
 # Mount Entware - Minimal Version 
 # Last updated 10-23-2024 | Free to modify, change, and distribute, I only ask that you share any improvements you make and credit me when appropriate.
 # Summary: Detects and mounts Entware upon detection of a USB ready as per system notification.
-# You must add "/jffs/scripts/Mount-Ent.sh &" to post-mount, or alternatively, if that doesn't work, change your USB label below and add script to services-start 
+# You must add "/jffs/scripts/Mount-Ent.sh &" to post-mount. Alternatively, if that doesn't work, add this to services-start and change your USB label below.
 #
 # This is the minimal version of @MikeLierman's (github.com/mnlierman) Mount Entware script. As other community Entware mounting scripts
 # have been rumored to not be supported anymore and they were not working for us.
