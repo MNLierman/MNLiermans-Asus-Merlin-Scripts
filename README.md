@@ -15,7 +15,7 @@ Despite these issues, I continue to support Asus due to their historically high-
 
 This INDEX will list many of the scripts and projects I’ve created to improve upon Linux for routers (and Asus/Merlin), address these issues I've discussed, and add conviences and features. I share these all with anyone. You are free to modify and redistribute anything I've uploaded, my only request is that you share any improvements you've made and give credit where appropriate. Occationally, there may be a type here and there, but nothing I upload has gone untested unless I've specifically stated such.
 
-**Disclaimer: Use at your own risk! If my scripts turn your router into a molten heap of plastic, that’s on you. I provide these scripts with _zero_ warranties or promises. Proceed with caution and a fire extinguisher nearby! 🧯** 
+**Disclaimer: Use at your own risk! I may have put a lot of effort and time into what I've shared, but if my scripts turn your router into a molten heap of plastic, that’s on you. I provide these scripts with _zero_ warranties or promises. Proceed with caution and a fire extinguisher nearby! 🧯** 
 
 <br>
 
