@@ -11,7 +11,9 @@ To improve responsiveness, free up RAM and CPU resources, add features, make my 
 
 I’ve been tempted to rewrite rc.c/rc.h to manage services and processes more intelligently, starting them only when needed. This approach has been standard since Linux 2.6 with Systemd, and Windows 7 when Microsoft refined svchost. However, Asus seems stuck in the past; they continue to use outdated software and their ugly 10 year old web UI. They also haven't updated their linux kernel past 4.1x from 2019 (except for some security hot patches) and a BusyBox version from the same year. It’s disappointing to see Asus lagging behind, especially considering they have a large team of software engineers dedicated to home networking. Among many of the improvements and features of newer kernel versions, is huge improvements in USB 3.1, as well as performance and security.
 
-Despite these issues, I continue to support Asus due to their historically high-quality products (I hope this hasn’t changed) and because many of my clients rely on Asus devices, including multiple routers in each of their offices. Overall, it’s frustrating to encounter such inefficiencies, which is my main driving motiviation to creating these improvements and scripts. This INDEX will list many of the scripts and projects I’ve created.
+Despite these issues, I continue to support Asus due to their historically high-quality products (I hope this hasn’t changed) and because many of my clients rely on Asus devices, including multiple routers in each of their offices. Overall, it’s frustrating to encounter such inefficiencies, which is my main driving motiviation to creating these improvements and scripts.
+
+This INDEX will list many of the scripts and projects I’ve created to improve upon Linux for routers (and Asus/Merlin), address these issues I've discussed, and add conviences and features. I share these all with anyone. You are free to modify and redistribute anything I've uploaded, my only request is that you share nay improvements you've had and give credit where appropriate.
 
 <br>
 
