@@ -15,7 +15,7 @@
 
 # Variables
 drvlabel="Ent" # Optional, use your thumb drive label to mount Entware, helpful if system struggles to find Entware automatically or post-mount isn't executed
-logging=0 # Log extra verbose information; could be helpful if Entware isn't getting mounted or script fails
+logging=1 # Log extra verbose information; could be helpful if Entware isn't getting mounted or script fails
 logfile="/jffs/logs/USB-Mount.log"
 chroot=0 # Change to 1 if you installed Debian or Ubuntu chroot, this will ensure the proper mount options are enabled
 homefolder=1 # Recommended, this mounts /tmp/opt/home to /tmp/home, since /tmp/home is lost on reboot, as /tmp is a ram drive
@@ -33,13 +33,19 @@ if [ "$logging" -eq 1 ]; then
     [ -d /jffs/logs ] || mkdir -p /jffs/logs
 
     # Redirect both stdout and stderr to the log file
-    exec > "$logfile" 2>&1
+    exec >> "$logfile" 2>&1
 fi
 
 # Check if Entware is already mounted
 if [ -d "/opt/bin" ] && [ -f "/opt/etc/entware_release" ]; then
-    logger -t "[Mount Entware]" "USB $1 detected, but Entware appears to already be mounted, exiting."
-    exit 2
+    if [ "$1" == "force" ]; then
+        log "USB $1 detected, but Entware appears to already be mounted. Forced mode enabled, continuing."
+        logger -t "[Mount Entware]" "USB $1 detected, but Entware appears to already be mounted. Forced mode enabled, continuing."
+    else
+        log "USB $1 detected, but Entware appears to already be mounted, exiting."
+        logger -t "[Mount Entware]" "USB $1 detected, but Entware appears to already be mounted, exiting."
+        exit 2
+    fi
 fi
 
 # Log USB detection
@@ -48,7 +54,6 @@ logger -t "[Mount Entware]" "USB $1 detected, checking if Entware exists."
 
 # Check for Entware directory
 if [ -d "$1/entware/bin" ] || [ -d "/tmp/mnt/$drvlabel/entware/bin" ]; then
-    log "Entware successfully detected, now mounting."
 
     # Create opt dir if it doesn't exist
     [ -d /tmp/opt ] || mkdir -p /tmp/opt
@@ -153,6 +158,6 @@ if [ -d "$1/entware/bin" ] || [ -d "/tmp/mnt/$drvlabel/entware/bin" ]; then
     fi
 else
     log "Entware not found on $1 or /tmp/mnt/$drvlabel/entware/bin."
-    logger -t "[Mount Entware]" "Entware not found on $1 or /tmp/mnt/$drv
+    logger -t "[Mount Entware]" "Entware not found on $1 or /tmp/mnt/$drv"
     exit 0
 fi
