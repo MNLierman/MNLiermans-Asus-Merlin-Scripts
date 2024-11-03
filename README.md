@@ -4,7 +4,7 @@ I'm sharing my growing collection of scripts I've written for Asus routers, spec
 **Disclaimer: Use at your own risk! I may have put a lot of effort and time into what I've shared, but if my scripts turn your router into a molten heap of plastic, that’s on you. I provide these scripts with _zero_ warranties or promises. Proceed with caution and a fire extinguisher nearby! 🧯** 
 
 ## INDEX
-#### A somewhat helpful index of what these scripts do and why you might be interested in using them.
+#### I'm provding a somewhat helpful index of what each of these scripts do and why you might be interested in using them.
 
 <br>
 
