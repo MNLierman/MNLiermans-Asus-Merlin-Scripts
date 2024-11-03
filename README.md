@@ -61,7 +61,7 @@ As a result, in the past 12 months (as of October 2024), Roaming Assistant ignor
 
 There are a few solutions, but the best one involves changing the NVRAM variables to longer timeouts and sending a suspend signal to the Roaming Assistant process. This inspired the creation of the ProcSuspender script, which runs every 10 minutes via cron to suspend problematic Asus services and processes that consume CPU resources. Suspending processes is the safest solution, as stopping or killing them only works for 5-10 seconds before Watchdog and RC_Service restart them.
 
-Script will be uploaded in the next couple of days. _**~ Mike 11-2-2024**_
+Script will be uploaded in the next couple of days. ___~ Mike 11-2-2024___
 
 <br>
 
