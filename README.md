@@ -1,5 +1,7 @@
 # MNLiermans-Asus-Merlin-Scripts
-A growing collection of scripts that I've created for use on all routers, but specifically designed to improve performance, create additional features, and help my OCD while managing several networks that use Asus AX Routers. 
+I'm sharing my growing collection of scripts I've written for Asus routers, specifically those running Merlin, but they can be utilized on nearly any router. These scripts are designed to enhance the performance, add new features, and make life easier.
+
+**Disclaimer: Use at your own risk! I may have put a lot of effort and time into what I've shared, but if my scripts turn your router into a molten heap of plastic, that’s on you. I provide these scripts with _zero_ warranties or promises. Proceed with caution and a fire extinguisher nearby! 🧯** 
 
 ## INDEX
 #### A somewhat helpful index of what these scripts do and why you might be interested in using them.
@@ -7,7 +9,7 @@ A growing collection of scripts that I've created for use on all routers, but sp
 <br>
 
 ### Why?
-To improve responsiveness, free up RAM and CPU resources, add features, make my life easier, **and**, ultimately by acomplishing these, I can run Docker containers on routers using idle resources. Debloating, optimizing, and making more efficent Asus's software can make a huge difference. For reference, a typical install of Debian 10 uses 100MB of RAM or less, while an Asus router, even with all features disabled / not configured, and the Trend Micro EULA declined, uses nearly 200MB. ***Why, Asus?***
+As an IT professional, I manage a lot of different hardware (Asus included)( for clients, as well as personally my self, and I enjoy sharing with the community at large the things I've created/modified that I find benificial. The goal is to enhance responsiveness, free up RAM and CPU resources, and add features, ultimately simplifying management. By achieving these improvements, I can transfer apps and containers from Docker setups to the routers, distributing the network load and ensuring smoother operation. This approach leverages the idle resources of the routers to run applications and containers that would otherwise be handled by Docker systems. Optimizing and debloating Asus’s software can significantly improve performance. Just for reference, a typical Debian 11 installation uses 100MB of RAM or less, while an Asus router, even with all features disabled and the Trend Micro EULA declined, uses nearly 200MB.  ***Why, Asus?***
 
 I’ve been tempted to rewrite rc.c/rc.h to manage services and processes more intelligently, starting them only when needed. This approach has been standard since Linux 2.6 with Systemd, and Windows 7 when Microsoft refined svchost. However, Asus seems stuck in the past; they continue to use outdated software and their ugly 10 year old web UI. They also haven't updated their linux kernel past 4.1x from 2019 (except for some security hot patches) and a BusyBox version from the same year. It’s disappointing to see Asus lagging behind, especially considering they have a large team of software engineers dedicated to home networking. Among many of the improvements and features of newer kernel versions, is huge improvements in USB 3.1, as well as performance and security.
 
@@ -19,8 +21,11 @@ This INDEX will list many of the scripts and projects I’ve created to improve 
 
 <br>
 
-### One Last Thing: Creating Discussions
+### Creating Discussions
 I am pretty responsive on GitHub, as I have many active projects going on, and among them are my ever growing collection of scripts. So if something doesn't work right or you have other questions, let me know in the comments and feel free to create a discussion here on GitHub. Please only create Issues after opening a discussion, and have logs and details ready to share if you are needing assistance.
+
+## Thank You to the Communtiy
+To the Asus communities and forums which have a lot of resources for anyone looking to add value to their routers. Some of the scripts and resources I've shared here are modifications of resources originally shared elsewhere When the original work is not my own, I've attempted to make this clear in the comments.
 
 <br>
 
