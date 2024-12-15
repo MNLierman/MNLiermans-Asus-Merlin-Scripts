@@ -1,4 +1,5 @@
-# MNLiermans-Asus-Merlin-Scripts
+# MNLierman's Wireless Router Scripts
+## Scripts for Routers, Including Those Running Asus WRT / Merlin 
 I'm sharing my growing collection of scripts I've written for Asus routers, specifically those running Merlin, but they can be utilized on nearly any router. These scripts are designed to enhance performance, add new features, and make life easier and more enjoyable.
 
 **Disclaimer: Use at your own risk! I may have put a lot of effort and time into what I've shared, but if my scripts turn your router into a molten heap of plastic, that’s on you. I provide these scripts with _zero_ warranties or promises. Proceed with caution and a fire extinguisher nearby! 🧯** 
