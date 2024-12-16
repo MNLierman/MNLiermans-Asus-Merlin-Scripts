@@ -48,7 +48,6 @@ While muunting with these options won’t make your router or system dramaticall
 <br>
 
 ### Network Performance Improvement Scripts
-I'm not going to create an index entry for all of these misc scripts, as they are too great in number.
 
 **Net Optimize:** Script that optimzies the routers networking functions. This will force the router to utilize it's memory a little more efficently for packet receive/send, with buffers large enough that on a busy home network, playing high-bandwidth games and streaming movies at the same time doesn't result in packet drop due to too small of buffers and a packet qeueig running on just 1 ofr the cores (this is the default).
 
@@ -59,7 +58,9 @@ I'm not going to create an index entry for all of these misc scripts, as they ar
 <br>
 
 ### Misc Performance Improvement Scripts
-I'm not going to create an index entry for all of these misc scripts, as they are too great in number.
+Scripts that I decided won't be getting their own heading.
+<br>
+More to come...
 
 <br>
 
